@@ -8,7 +8,7 @@
 "- https://github.com/ayu-theme/ayu-vim
 "- https://www.quora.com/What-are-some-of-the-best-Vim-color-schemes
 "- https://www.slant.co/topics/480/~best-vim-color-schemes
-colorscheme desert     " :colorscheme [tab] -> more scheme
+colorscheme ron     " :colorscheme [tab] -> more scheme
 "------------------------------------------
 "- encoding
 set encoding=utf-8
