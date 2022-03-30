@@ -103,6 +103,8 @@ endfunction
 "====================================================================
 " Vundle Setting
 " :PluginInstall 
+" :PluginUpdate => You just need to mark  plugin which you want to remove and
+"  execute the command.
 "====================================================================
 set nocompatible               " be iMproved
 filetype off                   " required!
@@ -115,8 +117,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'neoclide/coc.nvim', {'branch': 'release'}
-Plugin 'Yggdroot/indentLine'
+"Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+"Plugin 'Yggdroot/indentLine'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 "------------------------------------------
