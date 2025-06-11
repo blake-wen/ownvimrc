@@ -58,6 +58,8 @@ execute "set shiftwidth=".tabsize
 "- Tab 寬度 tabstop(ts) "setlocal tabstop=4
 execute "set tabstop=".tabsize
 
+"- 設定tab是空白還是\t字元"
+"- noexpandtab= \t expandtab=空白字元"
 :set expandtab
 :%retab!
 "set softtabstop=4		" 按 Backspace 可以一次刪 4 個空白鍵
